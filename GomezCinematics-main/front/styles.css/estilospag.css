@@ -1,0 +1,122 @@
+/* General Styles */
+body, html {
+  background-color: #000000; /* Fondo negro para toda la página */
+  color: #f8f8f8; /* Texto blanco para buen contraste */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #727272;
+  padding: 5px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 5px;
+  margin: 10px;
+  
+}
+
+header nav ul li a {
+  color: #a32f2f;
+  padding: 10px;
+  text-decoration-color: #000;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#tituloDePagina {
+  width: 100%;
+  margin: 0%;
+  padding: 20px;
+  background-image: url(https://th.bing.com/th/id/R.0f0254c90ab5fded3bfd9523d86356a5?rik=73tsNa9WH94bmQ&riu=http%3a%2f%2fwww.familie-und-tipps.de%2fKinder%2fKinderspielzeug%2fKinderfiguren%2fBilder%2fFilm.jpg&ehk=%2b%2bw99BKK5%2bWhGWOGQhlI5eZcztr3U05l7pAVsk7Eoi0%3d&risl=&pid=ImgRaw&r=0);
+  border: 10px solid #912020de;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#textoDeLaImagen {
+  color: #ffffffde;
+}
+
+.jumbotron {
+  margin-top: 10px;
+  height: 250px;
+  color: black;
+}
+
+#tarjetasDePeliculas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+#FormularioDePeliculas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Añadir padding para separar los elementos del borde */
+  border: 2px solid #000; /* Añadir un borde al formulario */
+  border-radius: 8px; /* Opcional: añadir bordes redondeados */
+  background-color: #b92020; /* Opcional: añadir un color de fondo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: añadir sombra */
+
+}
+
+#tarjetasDePeliculas section {
+  background-color: #414141;
+  padding: 20px;
+  border: 4px solid #ffffffde;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration-color: #ffffffde;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#tarjetasDePeliculas section:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#tarjetasDePeliculas h2 {
+  margin: 0;
+  font-size: 24px;
+  text-decoration-color: #ffffffde;
+}
+
+#tarjetasDePeliculas img {
+  width: 100%;
+  height: auto;
+}
+
+/* Formulario Styles */
+.container {
+  background-color: #b92020; /* Fondo del contenedor del formulario */
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto; /* Espaciado superior para separar del encabezado */
+}
+
+h2 {
+  color: #ffffff; /* Color del título del formulario */
+}
