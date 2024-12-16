@@ -1,0 +1,1 @@
+Gómez Cinematics es un sitio web para explorar y crear películas, proporcionando información sobre la historia del cine. Desarrollado con un frontend en HTML, Bootstrap y JavaScript, y un backend en Node.js, Express y Mongoose para la gestión de datos.
